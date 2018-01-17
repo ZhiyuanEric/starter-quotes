@@ -304,6 +304,8 @@ switch (ENVIRONMENT)
 	}
 
 	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
+        
+        
 
 /*
  * --------------------------------------------------------------------
@@ -313,3 +315,5 @@ switch (ENVIRONMENT)
  * And away we go...
  */
 require_once BASEPATH.'core/CodeIgniter.php';
+
+echo '<a href="file:///Users/linzhiyuan/Documents/COMP4711/lab2/starter-quotes/application/models/Quotes.php"> quotes.php</a>';
