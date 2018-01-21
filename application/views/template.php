@@ -25,8 +25,12 @@ if (!defined('APPPATH'))
         <div class="container">
             <div id="content">
                 <h1>{pagetitle}</h1>
+				<br/>
+				<h2 style="text-align: center"> Movie: Spaceballs (1987) </h2>
+				<hr/>
                 {content}
             </div>
+			<hr/>
             <div id="footer" class="span12">
                 Copyright &copy; 2015-2017,  <a href="mailto:someone@somewhere.com">Me</a>.
             </div>
